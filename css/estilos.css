@@ -100,9 +100,9 @@ section{
 }
 #notiLeft{
     background-image: url("../images/notiLeft.jpg");
-    height: 300px; /* You must set a specified height */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
+    height: 300px; 
+    background-position: center; 
+    background-repeat: no-repeat;
     background-size: cover; 
 }
 #notiRight{
@@ -168,6 +168,57 @@ a{
     margin-left: 5%;
 }
 .cardBann{
-    weight: 500px;
-    height: 200px;
+    max-height: 300px;
+    max-width: 100%;
+}
+.txtCardBann{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    -webkit-text-stroke: 2px black;
+    font-size: 50px;
+}
+.parrCardBann{
+    font-size: 15px;
+}
+.bannProye1{
+    position: relative;
+    background-image: url("../images/proyectos/proyecto1.jpg");
+    height: 300px; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    border-radius: 2%;
+}
+.bannProye2{
+    position: relative;
+    background-image: url("../images/proyectos/proyecto2.jpeg");
+    height: 300px; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    border-radius: 2%;
+}
+.bannProye3{
+    position: relative;
+    background-image: url("../images/proyectos/proyecto3.jpg");
+    height: 300px; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    border-radius: 2%;
+}
+.btnBannProye{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+.collCard{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 800px;
+    max-height: 50px;
 }

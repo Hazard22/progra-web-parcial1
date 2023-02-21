@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Inicio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/estilos.css" type="text/css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <header>
+        <div class="row" id="lineaAzul">
+          <div class="col-9">OHLA 55€ 0.49% 09/02/2023 17:35</div>
+          <div class="col-3">
+            <nav class="navbar navbar-expand-lg" id="menuContacto">
+              <div class="container-fluid">
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  id="menuContacto"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                  class="collapse navbar-collapse"
+                  id="navbarSupportedContent"
+                >
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link blanco" href="contacto.html"
+                        >Contacto</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link blanco" href="idioma.html">English</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link blanco" href="buscador.html"
+                        >Buscador</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <div class="row" id="logo">
+          <div class="col-2">
+            <img src="/images/ohla_logo.svg" class="img-fluid" alt="Logo" />
+          </div>
+          <div class="col-10">&nbsp;</div>
+        </div>
+        <div class="row" id="navSupe">
+          <nav
+            class="navbar navbar-expand-lg navbar-light bg-light"
+            data-bs-theme="dark"
+          >
+            <div class="container-fluid">
+              <a class="navbar-brand fuenteGlo text-black" href="index.html"
+                >Constructora</a
+              >
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link fuenteGlo text-black active"
+                      aria-current="page"
+                      href="index.html"
+                      >Inicio</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-black" href="proyectos.html"
+                      >Proyectos</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-black" href="maquinaria.html"
+                      >Maquinaria</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-black" href="galeria.html"
+                      >Galeria</a
+                    >
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link text-black dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Sobre nosotros
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="quienes.html"
+                          >Quienes somos</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="preguntas.html"
+                          >Preguntas frecuentes</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="ubicacion.html">Ubicacion </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="row" id="banner">
+          <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="/images/slider1.jpg"
+                  class="d-block w-100 imgslider"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="/images/slider2.jpg"
+                  class="d-block w-100 imgslider"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="/images/slider3.jpg"
+                  class="d-block w-100 imgslider"
+                  alt="..."
+                />
+              </div>
+              <div>
+                <button type="button" class="btn btn-info" onclick="location.href='galeria.html'" id="btnSlider">
+                  Visita nuestra galeria >>
+                </button>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <section>
+        <div class="row">&nbsp;</div>
+        <div class="row sectionText">
+          <p>Grupo global de infraestructuras <br>
+            con más de 110 años de historia</p>
+        </div>
+        <div class="row" id="section1">
+          <div class="col-1"></div>     
+          <div class="col-2">
+            <div class="row imgSection">
+              <img src="images/icons/vector4.png" alt="">
+            </div>
+            <div class="row">
+              <div>Construccion</div>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="row imgSection">
+              <img src="images/icons/vector6.png" alt="">
+            </div>
+            <div class="row">
+              <div>Industrial</div>
+            </div>
+          </div>
+          <div class="col-2 ">
+            <div class="row imgSection">
+              <img src="images/icons/vector7.png" alt="">
+            </div>
+            <div class="row">
+              <div>Servicios</div>
+            </div>
+          </div>  
+          <div class="col-2 ">
+            <div class="row imgSection">
+              <img src="images/icons/vector5.png" alt="">
+            </div>
+            <div class="row">
+              <div>Desarrollos</div>
+            </div>
+          </div>  
+          <div class="col-2 ">
+            <div class="row imgSection">
+              <img src="images/icons/vector3.png" alt="">
+            </div>
+            <div class="row">
+              <div>Concesiones</div>
+            </div>
+          </div>      
+          <div class="col-1"></div>  
+        </div>
+        <div class="row">&nbsp;</div>
+        <div class="row" id="noti">
+          <div class="col-5" id="notiLeft">
+          </div>
+          <div class="col-1" id="notiC">
+          </div>
+          <div class="col-5" id="notiRight">
+            <div class="row styTxt1">6 de julio de 2021</div>
+            <div class="row styTxt2">OHLA, una nueva marca para un grupo global de infraestructuras preparada para volver a la senda del beneficio</div>
+            <div class="row styTxt3">La nueva identidad de la compañía muestra el legado de 110 años de historia y simboliza el inicio de una nueva etapa</div>
+          </div>
+        </div>
+        <div class="row">&nbsp;</div>
+        <div class="row" id="section2">
+          <div class="col-4">
+            <div class="card" style="width: 18rem;">
+              <img src="images/card1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Rescatistas</h5>
+                <p class="card-text">Nuestros rescatistas se presentan en Turquia para llevar a cabo labores de rescate</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem;">
+              <img src="images/card2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sensibilización en materia de Igualdad</h5>
+                <p class="card-text">Mantenemos un compromiso activo con la diversidad e igualdad de oportunidades. Por ello, uno de los objetivos del Plan de Igualdad en España es la formación e información en la materia para los empleados.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem;">
+              <img src="images/card3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Labores de reconstrucción</h5>
+                <p class="card-text">Gracias a donativos de diferentes empresas nuetra empresa realiza labores de reconstruccion en inmuebles afectados por el
+                  terremoto en Turquia
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">&nbsp;</div>
+      </section>
+
+      <footer>
+        <div class="row" id="pie">
+          <div class="col-1">
+            <img src="/images/OHLA-w.svg" alt="logo" />
+          </div>
+          <div class="col-11">
+            <nav class="navbar navbar-expand-lg" id="menuPie">
+              <div class="container-fluid">
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  id="menuContacto"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                  class="collapse navbar-collapse"
+                  id="navbarSupportedContent"
+                >
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link blanco espaDere" href="contacto.html"
+                        >Contacto</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link blanco" href="accesibilidad.html"
+                        >Accesibilidad</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link blanco espaDere" href="politica.html"
+                        >Politica de Privacidad</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link blanco espaDere" href="buscador.html">
+                        <img
+                          class="logo"
+                          src="/images/linkein_logo.png"
+                          alt="Linkedin"
+                        />
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link blanco" href="buscador.html">
+                        <img
+                          class="logo"
+                          src="/images/youtube_logo.png"
+                          alt="Youtube"
+                        />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+<!-- <div class="col-md-3 col-sm-3 col-xs-6"> <a href="#" class="btn btn-sm animated-button thar-three">Register</a> </div>-->

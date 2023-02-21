@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+#lineaAzul{
+    background-color: #2F3773;
+    color: #FFFFFF;
+    align-items: center;
+}
+#menuContacto{
+    background-color: #2F3773;
+    color: #FFFFFF;
+}
+.blanco{
+    color: #FFFFFF;
+}
+.espaDere{
+    margin-left: 200px;
+}
+#textoSupe{
+    display: grid;
+    place-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+#imgBanner{
+    background-image: url("../images/banner.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 300px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+#bannerGral{
+    display: grid;
+    position: relative;
+    background-color: #EAEAEA; 
+    height: 300px;
+}
+.txtBanner{
+    color: #29327B;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+#pie{
+    background-color: #2F3773;
+    color: #FFFFFF;
+    height: 150px;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+.logo{
+    height: 25px;
+    width: 25px;
+}
+#banner{
+     position: relative;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+}
+.imgslider{
+    height: 400px;
+}
+#btnSlider{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Roboto', sans-serif;
+}
+.fuenteGlo{
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    align-self: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    
+}
+.imgSection{
+    width: 200px;
+    height: 200px;
+}
+.sectionText{
+    text-align: left;
+    margin-left: 5%;
+    font-size: 40px;
+}
+#section1{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+#section2{
+    margin-left: 15%;
+    margin-right: 10%;
+    font-size: 15px;
+}
+#noti{
+    justify-content: center;
+}
+#notiLeft{
+    background-image: url("../images/notiLeft.jpg");
+    height: 300px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+}
+#notiRight{
+    background-color: #2F3773;
+}
+#notiC{
+    background-color: #2F3773;
+    width: 2px;
+}
+.styTxt1{
+    margin-top: 2%;
+    color: #00AB8E;
+}
+.styTxt2{
+    margin-top: 5%;
+    color: #FFFFFF;
+}
+.styTxt3{
+    margin-top: 5%;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.estiloTitu{
+    font-family: 'Roboto', sans-serif;
+    color: #293287;
+    font-size: 25px;
+    margin-left: 3%;
+}
+.estiloParra{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #29327B;
+    margin-left: 3%;
+}
+ul{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #29327B;
+    margin-left: 5%;
+}
+a{
+    text-decoration-line: none;
+    color: #56C9CA;
+}
+.imgCaroCard{
+    height: 220px;
+}
+.galeria{
+    margin-left: 10%;
+}
+.tituGral{
+    font-family: 'Roboto', sans-serif;
+    color: #293287;
+    font-size: 40px;
+    margin-left: 5%;
+}
+.txtCaroAuto{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    -webkit-text-stroke: 2px black;
+    font-size: 80px;
+    margin-left: 5%;
+}
+.cardBann{
+    weight: 500px;
+    height: 200px;
+}

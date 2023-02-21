@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Galeria</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/estilos.css" type="text/css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <header>
+        <div class="row" id="lineaAzul">
+          <div class="col-9">OHLA 55€ 0.49% 09/02/2023 17:35</div>
+          <div class="col-3">
+            <nav class="navbar navbar-expand-lg" id="menuContacto">
+              <div class="container-fluid">
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                  class="collapse navbar-collapse"
+                  id="navbarSupportedContent"
+                >
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link blanco" href="contacto.html"
+                        >Contacto</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link blanco" href="idioma.html">English</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link blanco" href="buscador.html"
+                        >Buscador</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <div class="row" id="logo">
+          <div class="col-2">
+            <img src="/images/ohla_logo.svg" class="img-fluid" alt="Logo" />
+          </div>
+          <div class="col-10">&nbsp;</div>
+        </div>
+        <div class="row" id="navSupe">
+          <nav
+            class="navbar navbar-expand-lg navbar-light bg-light"
+            data-bs-theme="dark"
+          >
+            <div class="container-fluid">
+              <a class="navbar-brand text-black" href="index.html"
+                >Constructora</a
+              >
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link text-black active"
+                      aria-current="page"
+                      href="index.html"
+                      >Inicio</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-black" href="proyectos.html"
+                      >Proyectos</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-black" href="maquinaria.html"
+                      >Maquinaria</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-black" href="galeria.html"
+                      >Galeria</a
+                    >
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link text-black dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Sobre nosotros
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="quienes.html"
+                          >Quienes somos</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="preguntas.html"
+                          >Preguntas frecuentes</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="ubicacion.html"
+                          >Ubicación
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div
+          id="carouselExampleAutoplaying"
+          class="carousel slide banner"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="images/galeria/carrusel/carro1.jpg"
+                class="d-block w-100 imgslider"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/galeria/carrusel/carro2.jpg"
+                class="d-block w-100 imgslider"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/galeria/carrusel/carro3.jpg"
+                class="d-block w-100 imgslider"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/galeria/carrusel/carro4.jpg"
+                class="d-block w-100 imgslider"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/galeria/carrusel/carro5.jpg"
+                class="d-block w-100 imgslider"
+                alt="..."
+              />
+            </div>
+            <div class="txtCaroAuto">Galeria</div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </header>
+
+      <section>
+        <div class="row">&nbsp;</div>
+        <div class="row tituGral">Residenciales</div>
+        <div class="row">&nbsp;</div>
+        <div class="row galeria">
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="images/galeria/casa1/casa1_1.jpg"
+                      class="d-block w-100 imgCaroCard"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item active">
+                    <img
+                      src="images/galeria/casa1/casa1_2.jpg"
+                      class="d-block w-100 imgCaroCard"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item active">
+                    <img
+                      src="images/galeria/casa1/casa1_3.jpg"
+                      class="d-block w-100 imgCaroCard"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item active">
+                    <img
+                      src="images/galeria/casa1/casa1_4.jpg"
+                      class="d-block w-100 imgCaroCard"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExample"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExample"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="card-body">
+                <p class="estiloTitu">Alteza Residencial</p>
+                <p>$1,680,000.00</p>
+                <ul>
+                  <li>3 recámaras</li>
+                  <li>2 1/2 baños</li>
+                  <li>Recámara principal con baño</li>
+                  <li>Cocina integral incluida</li>
+                  <li>Amplio Patio de servicio con piso de loseta</li>
+                  <li>Cochera para 2 autos</li>
+                  <li>Alberca</li>
+                  <li>Área de juegos</li>
+                  <li>Control de acceso y caseta de vigilancia</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <div id="carouselExample2" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="images/galeria/casa2/casa2_1.jpg"
+                      class="d-block w-100 imgCaroCard"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item active">
+                    <img
+                      src="images/galeria/casa2/casa2_2.jpg"
+                      class="d-block w-100 imgCaroCard"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item active">
+                    <img
+                      src="images/galeria/casa2/casa2_3.jpg"
+                      class="d-block w-100 imgCaroCard"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item active">
+                    <img
+                      src="images/galeria/casa2/casa2_4.jpg"
+                      class="d-block w-100 imgCaroCard"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExample2"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExample2"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="card-body">
+                <p class="estiloTitu">Fraccionamiento avenida principal</p>
+                <p>$815,000.00</p>
+                <ul>
+                  <li>2 recamaras</li>
+                  <li>2 1/2 baños</li>
+                  <li>Baño y medio con acabados modernos</li>
+                  <li>Construida con ladrillo rojo, muros</li>
+                  <li>Bardas traseras independientes</li>
+                  <li>Cochera cerrada con reja</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <div id="carouselExample3" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="images/galeria/casa3/casa3_1.jpg"
+                      class="d-block w-100 imgCaroCard"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item active">
+                    <img
+                      src="images/galeria/casa3/casa3_2.jpg"
+                      class="d-block w-100 imgCaroCard"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item active">
+                    <img
+                      src="images/galeria/casa3/casa3_3.jpg"
+                      class="d-block w-100 imgCaroCard"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item active">
+                    <img
+                      src="images/galeria/casa3/casa3_4.jpg"
+                      class="d-block w-100 imgCaroCard"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExample3"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExample3"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="card-body">
+                <p class="estiloTitu">Alteza Residencial</p>
+                <p>$3,000,000.00</p>
+                <ul>
+                  <li>3 recámaras</li>
+                  <li>Estudio</li>
+                  <li>Sala de tv</li>
+                  <li>2 y medio baños</li>
+                  <li>Cluster con caseta de vigilancia</li>
+                  <li>Terraza de usos múltiples</li>
+                  <li>Alberca</li>
+                  <li>Áreas verdes</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">&nbsp;</div>
+        <div class="row tituGral">Departamentos</div>
+        <div class="row">&nbsp;</div>
+        <div class="row galeria">
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <div id="carouselExample4" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="images/galeria/casa4/casa4_1.jpg"
+                      class="d-block w-100 imgCaroCard"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item active">
+                    <img
+                      src="images/galeria/casa4/casa4_2.jpg"
+                      class="d-block w-100 imgCaroCard"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item active">
+                    <img
+                      src="images/galeria/casa4/casa4_3.jpg"
+                      class="d-block w-100 imgCaroCard"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item active">
+                    <img
+                      src="images/galeria/casa4/casa4_4.jpg"
+                      class="d-block w-100 imgCaroCard"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExample4"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExample4"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="card-body">
+                <p class="estiloTitu">Colonia Laureles</p>
+                <p>$590,000.00</p>
+                <ul>
+                  <li>2 Habitaciones </li>
+                  <li>Baño completo</li>
+                  <li>Espacio para cocina con tarja</li>
+                  <li>Patio de servicio</li>
+                  <li>Primer piso</li>
+                  <li>57 m²</li>
+                  <li>Alberca</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <div id="carouselExample5" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="images/galeria/casa5/casa5_1.jpg"
+                      class="d-block w-100 imgCaroCard"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item active">
+                    <img
+                      src="images/galeria/casa5/casa5_2.jpg"
+                      class="d-block w-100 imgCaroCard"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item active">
+                    <img
+                      src="images/galeria/casa5/casa5_3.jpg"
+                      class="d-block w-100 imgCaroCard"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item active">
+                    <img
+                      src="images/galeria/casa5/casa5_4.jpg"
+                      class="d-block w-100 imgCaroCard"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExample5"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExample5"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="card-body">
+                <p class="estiloTitu">Colonia las Fuentes</p>
+                <p>$750,000.00</p>
+                <ul>
+                  <li>3 recámaras</li>
+                  <li>1 baño completo</li>
+                  <li>Sala</li>
+                  <li>Comedor</li>
+                  <li>Cochera un auto</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <div id="carouselExample6" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="images/galeria/casa6/casa6_1.jpg"
+                      class="d-block w-100 imgCaroCard"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item active">
+                    <img
+                      src="images/galeria/casa6/casa6_2.jpg"
+                      class="d-block w-100 imgCaroCard"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item active">
+                    <img
+                      src="images/galeria/casa6/casa6_3.jpg"
+                      class="d-block w-100 imgCaroCard"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item active">
+                    <img
+                      src="images/galeria/casa6/casa6_4.jpg"
+                      class="d-block w-100 imgCaroCard"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExample6"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExample6"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="card-body">
+                <p class="estiloTitu">Resurrección</p>
+                <p>$630,000.00</p>
+                <ul>
+                  <li>Amplia sala</li>
+                  <li>Amplia cocina</li>
+                  <li>2 recamaras</li>
+                  <li>Un baño</li>
+                  <li>Patio de servicio</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">&nbsp;</div>
+      </section>
+
+      <footer>
+        <div class="row" id="pie">
+          <div class="col-1">
+            <img src="/images/OHLA-w.svg" alt="logo" />
+          </div>
+          <div class="col-11">
+            <nav class="navbar navbar-expand-lg" id="menuPie">
+              <div class="container-fluid">
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                  class="collapse navbar-collapse"
+                >
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link blanco espaDere" href="contacto.html"
+                        >Contacto</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link blanco" href="accesibilidad.html"
+                        >Accesibilidad</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link blanco espaDere" href="politica.html"
+                        >Politica de Privacidad</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link blanco espaDere" href="buscador.html">
+                        <img
+                          class="logo"
+                          src="/images/linkein_logo.png"
+                          alt="Linkedin"
+                        />
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link blanco" href="buscador.html">
+                        <img
+                          class="logo"
+                          src="/images/youtube_logo.png"
+                          alt="Youtube"
+                        />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

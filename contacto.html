@@ -10,7 +10,7 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/estilos.css" type="text/css">
+    <link rel="stylesheet" href="css/estilos.css" type="text/css" />
   </head>
   <body>
     <div class="container-fluid">
@@ -18,9 +18,7 @@
         <div class="row" id="lineaAzul">
           <div class="col-9">OHLA 55€ 0.49% 09/02/2023 17:35</div>
           <div class="col-3">
-            <nav
-              class="navbar navbar-expand-lg " id="menuContacto"
-            >
+            <nav class="navbar navbar-expand-lg" id="menuContacto">
               <div class="container-fluid">
                 <button
                   class="navbar-toggler"
@@ -40,13 +38,12 @@
                 >
                   <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                      <a class="nav-link blanco" href="contacto.html">Contacto</a>
+                      <a class="nav-link blanco" href="contacto.html"
+                        >Contacto</a
+                      >
                     </li>
                     <li class="nav-item">
                       <a class="nav-link blanco" href="idioma.html">English</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link blanco" href="buscador.html">Buscador</a>
                     </li>
                   </ul>
                 </div>
@@ -56,19 +53,19 @@
         </div>
         <div class="row" id="logo">
           <div class="col-2">
-            <img src="/images/ohla_logo.svg" class="img-fluid" alt="Logo">
+            <img src="/images/ohla_logo.svg" class="img-fluid" alt="Logo" />
           </div>
-          <div class="col-10">
-            &nbsp;
-          </div>
+          <div class="col-10">&nbsp;</div>
         </div>
         <div class="row" id="navSupe">
           <nav
-            class="navbar  navbar-expand-lg navbar-light bg-light"
+            class="navbar navbar-expand-lg navbar-light bg-light"
             data-bs-theme="dark"
           >
             <div class="container-fluid">
-              <a class="navbar-brand text-black" href="index.html">Constructora</a>
+              <a class="navbar-brand text-black" href="index.html"
+                >Constructora</a
+              >
               <button
                 class="navbar-toggler"
                 type="button"
@@ -91,13 +88,19 @@
                     >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-black" href="proyectos.html">Proyectos</a>
+                    <a class="nav-link text-black" href="proyectos.html"
+                      >Proyectos</a
+                    >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-black" href="maquinaria.html">Maquinaria</a>
+                    <a class="nav-link text-black" href="maquinaria.html"
+                      >Maquinaria</a
+                    >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-black" href="galeria.html">Galeria</a>
+                    <a class="nav-link text-black" href="galeria.html"
+                      >Galeria</a
+                    >
                   </li>
                   <li class="nav-item dropdown">
                     <a
@@ -121,7 +124,9 @@
                         >
                       </li>
                       <li>
-                        <a class="dropdown-item" href="ubicacion.html">Ubicación </a>
+                        <a class="dropdown-item" href="ubicacion.html"
+                          >Ubicación
+                        </a>
                       </li>
                     </ul>
                   </li>
@@ -133,33 +138,149 @@
             </div>
           </nav>
         </div>
-        <div class="row" id="banner">
+        <div class="row" id="bannerGral">
           <div class="col">
-            <div id="imgBanner">
-                <h1 id="titulo" class="blanco">Template</h1>
-            </div>
+            <h1 class="txtBanner">Contacto</h1>
           </div>
         </div>
       </header>
 
       <section>
-        
+        <div class="row">&nbsp;</div>
+        <div class="row">
+          <h1 class="estiloTitu">
+            Para cotizaciones y otros tramites, llena el siguiente formulario
+            uno de nuestros asesores se pondra en contacto contigo a la brevedad
+            posible
+          </h1>
+          <form class="row g-3">
+            <div class="col-md-4">
+              <label for="validationDefault01" class="form-label"
+                >Nombres</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="validationDefault01"
+                required
+              />
+            </div>
+            <div class="col-md-4">
+              <label for="validationDefault02" class="form-label"
+                >Apellidos</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="validationDefault02"
+                required
+              />
+            </div>
+            <div class="col-md-4">
+              <label for="exampleInputEmail1" class="form-label">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+              <div id="emailHelp" class="form-text">
+                Nunca compartiremos su correo electrónico con nadie más.
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationDefault03" class="form-label">Ciudad</label>
+              <input
+                type="text"
+                class="form-control"
+                id="validationDefault03"
+                required
+              />
+            </div>
+            <div class="col-md-3">
+              <label for="validationDefault04" class="form-label">Estado</label>
+              <select class="form-select" id="validationDefault04" required>
+                <option selected disabled value="">Selecionna...</option>
+                <option id="Aguascalientes">Aguascalientes</option>
+                <option id="Baja California">Baja California</option>
+                <option id="Baja California Sur">Baja California Sur</option>
+                <option id="Campeche">Campeche</option>
+                <option id="Chiapas">Chiapas</option>
+                <option id="Chihuahua">Chihuahua</option>
+                <option id="Ciudad de México">Ciudad de México</option>
+                <option id="Coahuila">Coahuila</option>
+                <option id="Colima">Colima</option>
+                <option id="Durango">Durango</option>
+                <option id="Estado de México">Estado de México</option>
+                <option id="Guanajuato">Guanajuato</option>
+                <option id="Guerrero">Guerrero</option>
+                <option id="Hidalgo">Hidalgo</option>
+                <option id="Jalisco">Jalisco</option>
+                <option id="Michoacán">Michoacán</option>
+                <option id="Morelos">Morelos</option>
+                <option id="Nayarit">Nayarit</option>
+                <option id="Nuevo León">Nuevo León</option>
+                <option id="Oaxaca">Oaxaca</option>
+                <option id="Puebla">Puebla</option>
+                <option id="Querétaro">Querétaro</option>
+                <option id="Quintana Roo">Quintana Roo</option>
+                <option id="San Luis Potosí">San Luis Potosí</option>
+                <option id="Sinaloa">Sinaloa</option>
+                <option id="Sonora">Sonora</option>
+                <option id="Tabasco">Tabasco</option>
+                <option id="Tamaulipas">Tamaulipas</option>
+                <option id="Tlaxcala">Tlaxcala</option>
+                <option id="Veracruz">Veracruz</option>
+                <option id="Yucatán">Yucatán</option>
+                <option id="Zacatecas">Zacatecas</option>
+              </select>
+            </div>
+            <div class="col-md-3">
+              <label for="validationDefault05" class="form-label"
+                >Número Celular</label
+              >
+              <input
+                type="tel"
+                class="form-control"
+                id="validationDefault05"
+                required
+              />
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal">Enviar</button>
+            </div>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Exito</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body estiloParra">
+                    <p>Datos enviados correctamente</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="row">&nbsp;</div>
       </section>
 
       <footer>
         <div class="row" id="pie">
-            <div class="col-1">
-                <img src="/images/OHLA-w.svg" alt="logo">
-            </div>
-            <div class="col-11">
-              <nav
-              class="navbar navbar-expand-lg " id="menuPie"
-            >
+          <div class="col-1">
+            <img src="/images/OHLA-w.svg" alt="logo" />
+          </div>
+          <div class="col-11">
+            <nav class="navbar navbar-expand-lg" id="menuPie">
               <div class="container-fluid">
                 <button
                   class="navbar-toggler"
                   type="button"
-                  id="menuContacto"
                   data-bs-toggle="collapse"
                   data-bs-target="#navbarSupportedContent"
                   aria-controls="navbarSupportedContent"
@@ -170,33 +291,46 @@
                 </button>
                 <div
                   class="collapse navbar-collapse"
-                  id="navbarSupportedContent"
                 >
                   <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                      <a class="nav-link blanco espaDere" href="contacto.html">Contacto</a>
+                      <a class="nav-link blanco espaDere" href="contacto.html"
+                        >Contacto</a
+                      >
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link blanco" href="accesibilidad.html">Accesibilidad</a>
+                      <a class="nav-link blanco" href="accesibilidad.html"
+                        >Accesibilidad</a
+                      >
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link blanco espaDere" href="politica.html">Politica de Privacidad</a>
+                      <a class="nav-link blanco espaDere" href="politica.html"
+                        >Politica de Privacidad</a
+                      >
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link blanco espaDere" href="buscador.html">
-                        <img class="logo" src="/images/linkein_logo.png" alt="Linkedin">
+                      <a class="nav-link blanco espaDere" href="https://es.linkedin.com/company/ohla-group-progressenablers" target="_blank">
+                        <img
+                          class="logo"
+                          src="/images/linkein_logo.png"
+                          alt="Linkedin"
+                        />
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link blanco" href="buscador.html">
-                        <img class="logo" src="/images/youtube_logo.png" alt="Youtube">
+                      <a class="nav-link blanco" href="https://www.youtube.com/@ohla7048" target="_blank">
+                        <img
+                          class="logo"
+                          src="/images/youtube_logo.png"
+                          alt="Youtube"
+                        />
                       </a>
                     </li>
                   </ul>
                 </div>
               </div>
             </nav>
-            </div>
+          </div>
         </div>
       </footer>
     </div>

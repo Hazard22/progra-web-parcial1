@@ -229,3 +229,52 @@ a{
 .cardMaqui{
     width: 300px;
 }
+.quienesBann{
+    background-image: url("../images/quienes/Edificios.jpg");
+}
+.fuente{
+    font-family: 'Roboto', sans-serif;
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.txtBanner2{
+    color: #29327B;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+.txtBanner3{
+    color: #29327B;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+.engImg{
+    position: absolute;
+    width: 427px;
+    height: 310px;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+.estiEng{
+    position: relative;
+    width: 100vw; height: 800px; 
+    background-color: white; 
+    align-items: center;
+}

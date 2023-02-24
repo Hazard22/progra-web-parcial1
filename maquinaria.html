@@ -10,7 +10,7 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/estilos.css" type="text/css">
+    <link rel="stylesheet" href="css/estilos.css" type="text/css" />
   </head>
   <body>
     <div class="container-fluid">
@@ -18,14 +18,11 @@
         <div class="row" id="lineaAzul">
           <div class="col-9">OHLA 55€ 0.49% 09/02/2023 17:35</div>
           <div class="col-3">
-            <nav
-              class="navbar navbar-expand-lg " id="menuContacto"
-            >
+            <nav class="navbar navbar-expand-lg" id="menuContacto">
               <div class="container-fluid">
                 <button
                   class="navbar-toggler"
                   type="button"
-                  id="menuContacto"
                   data-bs-toggle="collapse"
                   data-bs-target="#navbarSupportedContent"
                   aria-controls="navbarSupportedContent"
@@ -40,13 +37,17 @@
                 >
                   <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                      <a class="nav-link blanco" href="contacto.html">Contacto</a>
+                      <a class="nav-link blanco" href="contacto.html"
+                        >Contacto</a
+                      >
                     </li>
                     <li class="nav-item">
                       <a class="nav-link blanco" href="idioma.html">English</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link blanco" href="buscador.html">Buscador</a>
+                      <a class="nav-link blanco" href="buscador.html"
+                        >Buscador</a
+                      >
                     </li>
                   </ul>
                 </div>
@@ -56,19 +57,19 @@
         </div>
         <div class="row" id="logo">
           <div class="col-2">
-            <img src="/images/ohla_logo.svg" class="img-fluid" alt="Logo">
+            <img src="/images/ohla_logo.svg" class="img-fluid" alt="Logo" />
           </div>
-          <div class="col-10">
-            &nbsp;
-          </div>
+          <div class="col-10">&nbsp;</div>
         </div>
         <div class="row" id="navSupe">
           <nav
-            class="navbar  navbar-expand-lg navbar-light bg-light"
+            class="navbar navbar-expand-lg navbar-light bg-light"
             data-bs-theme="dark"
           >
             <div class="container-fluid">
-              <a class="navbar-brand text-black" href="index.html">Constructora</a>
+              <a class="navbar-brand text-black" href="index.html"
+                >Constructora</a
+              >
               <button
                 class="navbar-toggler"
                 type="button"
@@ -80,7 +81,7 @@
               >
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="collapse navbar-collapse">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
                     <a
@@ -91,13 +92,19 @@
                     >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-black" href="proyectos.html">Proyectos</a>
+                    <a class="nav-link text-black" href="proyectos.html"
+                      >Proyectos</a
+                    >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-black" href="maquinaria.html">Maquinaria</a>
+                    <a class="nav-link text-black" href="maquinaria.html"
+                      >Maquinaria</a
+                    >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-black" href="galeria.html">Galeria</a>
+                    <a class="nav-link text-black" href="galeria.html"
+                      >Galeria</a
+                    >
                   </li>
                   <li class="nav-item dropdown">
                     <a
@@ -121,7 +128,9 @@
                         >
                       </li>
                       <li>
-                        <a class="dropdown-item" href="ubicacion.html">Ubicación </a>
+                        <a class="dropdown-item" href="ubicacion.html"
+                          >Ubicación
+                        </a>
                       </li>
                     </ul>
                   </li>
@@ -133,33 +142,458 @@
             </div>
           </nav>
         </div>
-        <div class="row" id="banner">
-          <div class="col">
-            <div id="imgBanner">
-                <h1 id="titulo" class="blanco">Template</h1>
+        <div
+          id="carouselExampleAutoplaying"
+          class="carousel slide banner"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="images/maquinaria/pesada/slide1.jpg"
+                class="d-block w-100 imgslider"
+                alt="..."
+              />
             </div>
+            <div class="carousel-item">
+              <img
+                src="images/maquinaria/pesada/slide2.jpg"
+                class="d-block w-100 imgslider"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/maquinaria/pesada/slide3.jpg"
+                class="d-block w-100 imgslider"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/maquinaria/pesada/slide4.jpg"
+                class="d-block w-100 imgslider"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/maquinaria/pesada/slide5.jpg"
+                class="d-block w-100 imgslider"
+                alt="..."
+              />
+            </div>
+            <div class="txtCaroAuto">Maquinaria</div>
           </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </header>
 
       <section>
-        
+        <div class="row">&nbsp;</div>
+        <div class="row tituGral">Maquinaria Pesada</div>
+        <div class="row">&nbsp;</div>
+        <div class="row galeria">
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="images/maquinaria/pesada/ciste1.jpg"
+                      class="d-block w-100 imgCaroCard"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item active">
+                    <img
+                      src="images/maquinaria/pesada/ciste2.jpg"
+                      class="d-block w-100 imgCaroCard"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item active">
+                    <img
+                      src="images/maquinaria/pesada/ciste3.jpg"
+                      class="d-block w-100 imgCaroCard"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExample"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExample"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="card-body">
+                <p class="estiloTitu">Camión Cisterna Freightliner Columbia</p>
+                <p>$1,390,000.00</p>
+                <ul>
+                  <li>Capacidad: 15,141.65 L</li>
+                  <li>2007</li>
+                  <li>Transmisión	Manual</li>
+                  <li>Tipo: Cisterna</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <div id="carouselExample2" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="images/maquinaria/pesada/revol1.jpg"
+                      class="d-block w-100 imgCaroCard"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item active">
+                    <img
+                      src="images/maquinaria/pesada/revol2.jpg"
+                      class="d-block w-100 imgCaroCard"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item active">
+                    <img
+                      src="images/maquinaria/pesada/revol3.jpg"
+                      class="d-block w-100 imgCaroCard"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExample2"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExample2"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="card-body">
+                <p class="estiloTitu">Freightliner Revolvedora Fl120</p>
+                <p>$1,130,000.00</p>
+                <ul>
+                  <li>Modelo: FLD 112</li>
+                  <li>2006</li>
+                  <li>Transmisión	Manual</li>
+                  <li>Tipo: Revolvedora</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <div id="carouselExample3" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="images/maquinaria/pesada/volteo1.jpg"
+                      class="d-block w-100 imgCaroCard"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item active">
+                    <img
+                      src="images/maquinaria/pesada/volteo2.jpg"
+                      class="d-block w-100 imgCaroCard"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item active">
+                    <img
+                      src="images/maquinaria/pesada/volteo3.jpg"
+                      class="d-block w-100 imgCaroCard"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExample3"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExample3"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="card-body">
+                <p class="estiloTitu">Freightliner M2 35k Volteo</p>
+                <p>$800,000.00</p>
+                <ul>
+                  <li>Modelo 2009</li>
+                  <li>Capacidad De 7 Metros</li>
+                  <li>Transmisión	Manual</li>
+                  <li>Tipo: volteo</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">&nbsp;</div>
+        <div class="row tituGral">Excavadoras</div>
+        <div class="row">&nbsp;</div>
+        <div class="row galeria">
+          <div class="col-4">
+            <div class="card text-center mb-3" style="width: 28rem;">
+              <div class="card-body">
+                <h5 class="card-title">313D2 L</h5>
+                <div class="row">&nbsp;</div>
+                <img class="cardMaqui" src="images/maquinaria/excavadoras/exca1.jpg" alt="">
+                <div class="row">&nbsp;</div>
+                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Ver mas</a>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">313D2 L</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="row">
+                          <div id="carouselExampleIndicators" class="carousel slide">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="images/maquinaria/excavadoras/exca1.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="images/maquinaria/excavadoras/exca2.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="images/maquinaria/excavadoras/exca3.jpg" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                        </div>
+                        <div class="row">&nbsp;</div>
+                        <div class="row">
+                          <p class="infoText">Una cabina nueva y cómoda, versatilidad inigualable y controles mejorados hacen que la Cat 313D2 L sea una máquina líder de la industria. Gracias a las mejoras en el motor que ahorran combustible y a una variedad de herramientas multitareas, este modelo es el mejor de su tamaño.</p>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card text-center mb-3" style="width: 28rem;">
+              <div class="card-body">
+                <h5 class="card-title">320 GX</h5>
+                <div class="row">&nbsp;</div>
+                <img class="cardMaqui" src="images/maquinaria/excavadoras/exca4.jpg" alt="">
+                <div class="row">&nbsp;</div>
+                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">Ver mas</a>
+                <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel2">320 GX</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="row">
+                          <div id="carouselExampleIndicators2" class="carousel slide">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="images/maquinaria/excavadoras/exca4.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="images/maquinaria/excavadoras/exca5.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="images/maquinaria/excavadoras/exca6.jpg" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                        </div>
+                        <div class="row">&nbsp;</div>
+                        <div class="row">
+                          <p class="infoText">Modelo económico con toda la confiabilidad y facilidad de manejo que se espera de una excavadora Cat, la 320 GX tiene un mantenimiento sencillo y características de menor costo diseñadas para ofrecerle un retorno de la inversión en equipos más rápido.</p>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card text-center mb-3" style="width: 22rem;">
+              <div class="card-body">
+                <h5 class="card-title">336</h5>
+                <div class="row">&nbsp;</div>
+                <img class="cardMaqui" src="images/maquinaria/excavadoras/exca7.jpg" alt="">
+                <div class="row">&nbsp;</div>
+                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">Ver mas</a>
+                <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">336</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="row">
+                          <div id="carouselExampleIndicators3" class="carousel slide">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="images/maquinaria/excavadoras/exca7.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="images/maquinaria/excavadoras/exca8.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="images/maquinaria/excavadoras/exca9.jpg" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                        </div>
+                        <div class="row">&nbsp;</div>
+                        <div class="row">
+                          <p class="infoText">La 336 Cat cuenta con tecnología Cat integrada estándar para que pueda trabajar con más eficiencia. Con las nuevas opciones de cabina que se centran en la comodidad del operador y un menor consumo de combustible y mantenimiento, la excavadora garantiza que pasará más tiempo generando ganancias para su negocio.</p>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">&nbsp;</div>
       </section>
 
       <footer>
         <div class="row" id="pie">
-            <div class="col-1">
-                <img src="/images/OHLA-w.svg" alt="logo">
-            </div>
-            <div class="col-11">
-              <nav
-              class="navbar navbar-expand-lg " id="menuPie"
-            >
+          <div class="col-1">
+            <img src="/images/OHLA-w.svg" alt="logo" />
+          </div>
+          <div class="col-11">
+            <nav class="navbar navbar-expand-lg" id="menuPie">
               <div class="container-fluid">
                 <button
                   class="navbar-toggler"
                   type="button"
-                  id="menuContacto"
                   data-bs-toggle="collapse"
                   data-bs-target="#navbarSupportedContent"
                   aria-controls="navbarSupportedContent"
@@ -170,33 +604,46 @@
                 </button>
                 <div
                   class="collapse navbar-collapse"
-                  id="navbarSupportedContent"
                 >
                   <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                      <a class="nav-link blanco espaDere" href="contacto.html">Contacto</a>
+                      <a class="nav-link blanco espaDere" href="contacto.html"
+                        >Contacto</a
+                      >
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link blanco" href="accesibilidad.html">Accesibilidad</a>
+                      <a class="nav-link blanco" href="accesibilidad.html"
+                        >Accesibilidad</a
+                      >
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link blanco espaDere" href="politica.html">Politica de Privacidad</a>
+                      <a class="nav-link blanco espaDere" href="politica.html"
+                        >Politica de Privacidad</a
+                      >
                     </li>
                     <li class="nav-item">
                       <a class="nav-link blanco espaDere" href="buscador.html">
-                        <img class="logo" src="/images/linkein_logo.png" alt="Linkedin">
+                        <img
+                          class="logo"
+                          src="/images/linkein_logo.png"
+                          alt="Linkedin"
+                        />
                       </a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link blanco" href="buscador.html">
-                        <img class="logo" src="/images/youtube_logo.png" alt="Youtube">
+                        <img
+                          class="logo"
+                          src="/images/youtube_logo.png"
+                          alt="Youtube"
+                        />
                       </a>
                     </li>
                   </ul>
                 </div>
               </div>
             </nav>
-            </div>
+          </div>
         </div>
       </footer>
     </div>

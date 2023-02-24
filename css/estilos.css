@@ -222,3 +222,10 @@ a{
     max-width: 800px;
     max-height: 50px;
 }
+.infoText{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+.cardMaqui{
+    width: 300px;
+}
